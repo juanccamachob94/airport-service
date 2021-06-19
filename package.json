@@ -1,0 +1,19 @@
+{
+  "name": "airport-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanccamachob94/airport-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanccamachob94/airport-service/issues"
+  },
+  "homepage": "https://github.com/juanccamachob94/airport-service#readme"
+}
