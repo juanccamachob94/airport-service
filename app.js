@@ -18,12 +18,6 @@ app.use(methodOverride('_method'));
 
 routes(app);
 
-app.use(function(err, req, res) {
-  res.locals.message = err.message;
-  res.locals.error = req.app.get('env') === 'development' ? err : {};
-  res.status(err.status || 500);
-});
-
 app.listen(PORT, function(req, res) {
-  console.log(`Server is running with envirenment: ${process.env.NODE_ENV}`);
+  console.log(`Server is running with environment: ${process.env.NODE_ENV}`);
 });
